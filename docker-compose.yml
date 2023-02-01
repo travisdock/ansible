@@ -3,6 +3,7 @@ services:
     build: .
     volumes:
       - ~/.ssh:/root/.ssh
+      - ./:/development
     stdin_open: true
     tty: true
 
